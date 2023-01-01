@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IGi-cB-aGO">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21501"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="fRD-1l-P1O">
+            <objects>
+                <controller identifier="Main" title="Main" id="IGi-cB-aGO" customClass="InterfaceController">
+                    <items>
+                        <authorizationAppleIDButton width="1" alignment="left" id="zCQ-cy-D5l"/>
+                        <textField width="1" alignment="left" text="Text" id="969-2a-51Y"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="oce-we-LZf"/>
+                        <button width="1" alignment="left" title="Button" backgroundImage="play.fill" catalog="system" id="wid-pH-Dl0"/>
+                        <authorizationAppleIDButton width="1" alignment="left" id="daE-8i-i9O">
+                            <accessibilityTraits key="accessibilityTraits" none="YES"/>
+                        </authorizationAppleIDButton>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-67" y="-77"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play.fill" catalog="system" width="115" height="128"/>
+    </resources>
+</document>
